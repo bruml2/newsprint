@@ -1,0 +1,5 @@
+Errata at https://www.oreilly.com/catalog/errata.csp?isbn=0636920261216
+  none as of May 13. reported p84 error.
+  May 15: reported extname:'.hbs' error
+
+Handlebars is dropped; nunjucks is adopted.

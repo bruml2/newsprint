@@ -1,0 +1,16 @@
+{
+  "name": "newcanvas",
+  "version": "0.1.0",
+  "description": "prototype canvas replacement for HILR",
+  "main": "newcanvas.js",
+  "scripts": {
+    "test": "jest",
+    "server": "node newcanvas.js"
+  },
+  "author": "B Ruml",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  }
+}
