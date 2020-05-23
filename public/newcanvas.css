@@ -1,0 +1,50 @@
+html {
+  font-size: 16px;
+  font-family: Palatino, "New Times Roman", serif;
+}
+body {
+  margin: 0;
+  background-color: wheat;
+}
+.container {
+  position: relative;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 4rem;
+  background-color: crimson;
+  color: lightgray;
+  border-bottom: 1px solid black;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+}
+header .title {
+  padding-left: 2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+header ul li {
+  display: inline-block;
+  margin-right: 3rem;
+  font-size: 1.2rem;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 2rem;
+  background-color: lightgoldenrodyellow;
+  border-top: 1px solid black;
+}
+.home-content {
+  width: 70%;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 1px solid red;
+}

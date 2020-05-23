@@ -5,7 +5,6 @@
 const express = require('express')
 const app = express()
 const nunjucks = require('nunjucks')
-
 nunjucks.configure('views', {
   autoescape: true,
   express: app
@@ -14,13 +13,13 @@ nunjucks.configure('views', {
 const handlers = require('./src/handlers')
 // const weatherMiddlware = require('./src/middleware/weather')
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 8089
 
 app.use(express.static(__dirname + '/public'))
 
 // app.use(weatherMiddlware)
 
-app.get('/',             (req, res) => res.render('home', {layout:"home"}))
+app.get('/', (req, res) => res.render('home.njk', {msg:"Hello World!"}))
 app.get('/section-test', (req, res) => res.render('section-test', {layout:"main"}))
 
 app.use(handlers.notFound)
