@@ -7,9 +7,25 @@
 
 {% block content %}
 <div class="home-content">
-  <h1>Hello, World!</h1>
-  <h2>Home</h2>
   <h3>Welcome to the HILR replacement for Canvas</h3>
-  <p> {{ msg }} </p>
+  <p>The msg is: {{ msg }}.</p>
+</div>
+<div class="coursesDiv">
+  <h4>The courses are:</h4>
+ {% for course in partials.courses %}
+    <div class="module">
+      <h3>{{ course.title }}</h3>
+      <p>{{ course.day }}: {{ course.time }}</p>
+    </div>
+  {% endfor %}
 </div>
 {% endblock %}
+
+<!--
+    "num": 601,
+    "title": "Buddhism, An Ancient Religion Growing in the US",
+    "day": "Monday",
+    "time": "morning",
+    "duration": "full",
+
+-->

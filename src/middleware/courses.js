@@ -1,4 +1,9 @@
-const coursesData = () => {[
+/** courses.js  -  middleware which adds the "courses" property (an array)
+ *  to the res.local.partials object;
+ * May 24, 2020
+ */
+
+const getCoursesData = () => ([
   {
     "num": 601,
     "title": "Buddhism, An Ancient Religion Growing in the US",
@@ -35,4 +40,12 @@ const coursesData = () => {[
     ],
     "syllabus": "605syllabus.pdf"
   }
-  ]}
+])
+
+const coursesMiddleware = (req, res, next) => {
+  if(!res.locals.partials) res.locals.partials = {}
+  res.locals.partials.courses = getCoursesData()
+  next()
+}
+
+module.exports = coursesMiddleware
