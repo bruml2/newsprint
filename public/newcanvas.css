@@ -1,10 +1,20 @@
+/* newcanvas.css  May 23 */
+* {
+  box-sizing: border-box;
+}
 html {
-  font-size: 16px;
   font-family: Palatino, "New Times Roman", serif;
+  font-size: calc(12px + 0.28vw);
+  line-height: 1.5;
 }
 body {
   margin: 0;
   background-color: wheat;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.1;
+  margin: 0.25rem 0;
 }
 .container {
   position: relative;
@@ -28,8 +38,13 @@ header .title {
 }
 header ul li {
   display: inline-block;
-  margin-right: 3rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
   font-size: 1.2rem;
+}
+header ul li a {
+  color: lightgray;
+  text-decoration: none;
 }
 footer {
   position: absolute;
@@ -47,4 +62,13 @@ footer {
   margin: 3rem auto;
   padding: 2rem;
   border: 1px solid red;
+}
+.centered-text-column {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.centered-text-column p {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
 }

@@ -2,6 +2,7 @@
  *  v0.1  May 13, 2020
  *  v0.2  May 23: handlebars replaced with nunjucks;
  */
+'use strict';
 const express = require('express')
 const app = express()
 const nunjucks = require('nunjucks')
@@ -9,6 +10,7 @@ nunjucks.configure('views', {
   autoescape: true,
   express: app
 });
+// app.set('view engine', 'njk');  works without it!
 
 const handlers = require('./src/handlers')
 // const weatherMiddlware = require('./src/middleware/weather')
