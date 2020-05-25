@@ -12,12 +12,16 @@
 </div>
 <div class="coursesDiv">
   <h4>The courses are:</h4>
- {% for course in partials.courses %}
-    <div class="module">
-      <h3>{{ course.title }}</h3>
-      <p>{{ course.day }}: {{ course.time }}</p>
-    </div>
+  <table>
+ {% for course in courses %}
+    <tr>
+      <td>{{ course.crn }}&nbsp;&nbsp;</td>
+      <td>{{ course.title }}</td>
+      <td>{{ course.day }}: {{ course.time }}</td>
+      <td>{{ course.sgl1 }} {{ course.sgl2}}</td>
+    </tr>
   {% endfor %}
+  </table>
 </div>
 {% endblock %}
 

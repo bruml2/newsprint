@@ -1,7 +1,7 @@
 /** newcanvas.js  --  entry for app
  *  v0.1  May 13, 2020
  *  v0.2  May 23: handlebars replaced with nunjucks;
- *  v0.3  May 24: courses middleware;
+ *  v0.3  May 24: courses webscrapping and middleware;
  */
 'use strict';
 const port = process.env.PORT || 8089
@@ -11,18 +11,21 @@ const nunjucks = require('nunjucks')
 nunjucks.configure('views', {
   autoescape: true,
   express: app
-});
-// app.set('view engine', 'njk');  works without it!
+})
+// this eliminates the need for extensions on the view filenames;
+//  => include them anyway!
+app.set('view engine', 'njk')
+const path = require('path')
 
 const handlers = require('./src/handlers')
 const coursesMiddleware = require('./src/middleware/courses.js')
 
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(path.join(__dirname, '/public')))
 app.use(coursesMiddleware)
 
 app.get('/', (req, res) => {
   console.log('in get')
-  console.dir(res.local)
+  console.dir(res.locals)
   res.render('home.njk', {msg:"Hello World!"})
 })
 

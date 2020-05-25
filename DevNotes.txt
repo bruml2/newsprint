@@ -5,3 +5,8 @@ Errata at https://www.oreilly.com/catalog/errata.csp?isbn=0636920261216
 Handlebars is dropped; nunjucks is adopted.
 
 See: /HistoryTimelineStudio/restapi/webdevNodeExpress2e/ch07-rumlMay15
+
+Good express guide: http://expressjs.com/en/guide/routing.html
+Good jinja docs: https://jinja.palletsprojects.com/en/2.10.x/templates/#template-inheritance
+
+For AWS Vue system see: https://medium.com/@dan_22184/serverless-content-management-system-for-websites-using-vue-js-ac7e10081d2f

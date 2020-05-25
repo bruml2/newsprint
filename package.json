@@ -10,13 +10,22 @@
   "author": "B Ruml",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "nunjucks": "^3.2.1"
   },
   "nodemonConfig": {
     "verbose": true,
-    "watch": ["*.*", "views", "src", "public"],
-    "ignore": ["test/*", "docs/*"],
+    "watch": [
+      "*.*",
+      "views",
+      "src",
+      "public"
+    ],
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
     "ext": ".js, .json, .css, .njk"
   }
 }

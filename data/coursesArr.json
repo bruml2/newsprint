@@ -1,0 +1,732 @@
+[
+  {
+    "orderid": 1,
+    "crn": "300",
+    "title": "Proust's The Captive and The Fugitive",
+    "sgl1": "Jeff Greene",
+    "sgl2": "Don Leopold",
+    "day": "Monday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 2,
+    "crn": "301",
+    "title": "Reconstruction: From Emancipation to the Rise of Jim Crow",
+    "sgl1": "Sara Freedman",
+    "sgl2": "Colleen Martin",
+    "day": "Monday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 3,
+    "crn": "302",
+    "title": "The Modern Residential Garden, 1945 - Present",
+    "sgl1": "Jean Cavanaugh",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 4,
+    "crn": "100",
+    "title": "The Marvelous Monarch: My Lifelong Love Affair with a Butterfly",
+    "sgl1": "Patrick Cunningham",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "AM",
+    "duration": "1"
+  },
+  {
+    "orderid": 5,
+    "crn": "101",
+    "title": "Virginia Woolf: Life Writing",
+    "sgl1": "Susan Ebert",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "AM",
+    "duration": "1"
+  },
+  {
+    "orderid": 6,
+    "crn": "200",
+    "title": "Mexico: The Border and Beyond",
+    "sgl1": "Mary Christie",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 7,
+    "crn": "303",
+    "title": "Philip Roth on Aging, Illness, and Mortality",
+    "sgl1": "Jim Sabin",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 8,
+    "crn": "304",
+    "title": "The Solar System: Meet the Neighbors",
+    "sgl1": "Linda Neumann",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 9,
+    "crn": "305",
+    "title": "Understanding Drama: Sophocles, Shakespeare, Beckett",
+    "sgl1": "Bill Boone",
+    "sgl2": "Pat Meaney",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 10,
+    "crn": "102",
+    "title": "American Political Humor: Let's Laugh So We Don't Cry",
+    "sgl1": "Jane Hilburt-Davis",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 11,
+    "crn": "103",
+    "title": "Consciousness and Emotion in Animals Other Than Ourselves",
+    "sgl1": "Ross Neisuler",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 12,
+    "crn": "104",
+    "title": "Reading The New Yorker, Part 1",
+    "sgl1": "Irene Fairley",
+    "sgl2": "Kate McGillicuddy",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 13,
+    "crn": "203",
+    "title": "Reading the New Yorker, Part 2",
+    "sgl1": "Irene Fairley",
+    "sgl2": "Kate McGillicuddy",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 14,
+    "crn": "204",
+    "title": "The Short Stories of James Joyce and Ernest Hemingway",
+    "sgl1": "John Clarke",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 15,
+    "crn": "205",
+    "title": "The Tentacles of China’s Belt and Road Initiative",
+    "sgl1": "Dorothy Stephenson",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 16,
+    "crn": "206",
+    "title": "Thurgood Marshall: Bold, Brilliant Pioneer",
+    "sgl1": "Ross Neisuler",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 17,
+    "crn": "225",
+    "title": "Otto Bismarck and the Creation of the First National Health Insurance",
+    "sgl1": "Daniel Friedlander",
+    "sgl2": " ",
+    "day": "Monday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 18,
+    "crn": "306",
+    "title": "Development of the American Short Story Genre in the Twentieth Century",
+    "sgl1": "Joanne Carlisle",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 19,
+    "crn": "307",
+    "title": "How Wall Street Destroyed Main Street and Deutsche Bank Joined In",
+    "sgl1": "Peter Temin",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 20,
+    "crn": "308",
+    "title": "The Art of Looking: How Paintings Work",
+    "sgl1": "Hale Andrews",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 21,
+    "crn": "309",
+    "title": "“My Subject is War”: English Literature and Art of World War I",
+    "sgl1": "Martha Vicinus",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 22,
+    "crn": "106",
+    "title": "The Cold War",
+    "sgl1": "Jack Berg",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "1"
+  },
+  {
+    "orderid": 23,
+    "crn": "207",
+    "title": "Crisis in Cosmology",
+    "sgl1": "Gene Ferrari",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 24,
+    "crn": "208",
+    "title": "Terra Madre: Our Food and Our Planet",
+    "sgl1": "Marianne Mortara",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 25,
+    "crn": "209",
+    "title": "The Nineteenth Amendment: How Women Got the Vote",
+    "sgl1": "Mary Ellen Wynn",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 26,
+    "crn": "310",
+    "title": "Beowulf, Translated by Seamus Heaney",
+    "sgl1": "Rory O'Connor",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 27,
+    "crn": "311",
+    "title": "Calculus: The Beauty and The Power",
+    "sgl1": "Charles Freifeld",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 28,
+    "crn": "312",
+    "title": "Memoir Writing: It's Time!",
+    "sgl1": "Jeanne Speizer",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 29,
+    "crn": "313",
+    "title": "Social and Psychological Aspects of Pandemics",
+    "sgl1": "Burns Woodward",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 30,
+    "crn": "314",
+    "title": "Two Perspectives on Women in Society: Thackeray and James",
+    "sgl1": "Elizabeth Neild",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 31,
+    "crn": "107",
+    "title": "Magic and Mystery in Tibet",
+    "sgl1": "Jeffrey Berman",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 32,
+    "crn": "108",
+    "title": "Philip Larkin: The Most Famous Poet You've Barely Read",
+    "sgl1": "Shawn Maeder",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 33,
+    "crn": "210",
+    "title": "Artificial Intelligence: Promise, Threat, or Both?",
+    "sgl1": "Thomas Brome",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 34,
+    "crn": "211",
+    "title": "Trees: The Hidden Story and The Overstory",
+    "sgl1": "Fred Chanania",
+    "sgl2": "David Bliss",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 35,
+    "crn": "212",
+    "title": "Virus Hunters: Influenza, Pandemics and More. What Have We Learned?",
+    "sgl1": "Steve Zuckerman",
+    "sgl2": " ",
+    "day": "Tuesday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 36,
+    "crn": "315",
+    "title": "Beyond the Mayflower: Multicultural Early American Literature",
+    "sgl1": "Roberta Rosenberg",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 37,
+    "crn": "316",
+    "title": "Challenging the Historical Record in Unorthodox Fiction",
+    "sgl1": "John Morrel",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 38,
+    "crn": "317",
+    "title": "Maritime History as World History",
+    "sgl1": "Easley Hamner",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 39,
+    "crn": "318",
+    "title": "Retooling the American Workforce for the 21st Century",
+    "sgl1": "Dirck Stryker",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 40,
+    "crn": "109",
+    "title": "Appeasement Revisited: The British and Hitler in the 1930s",
+    "sgl1": "Dan White",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "1"
+  },
+  {
+    "orderid": 41,
+    "crn": "110",
+    "title": "Master Crafters of Creative Nonfiction: Mitchell, Liebling, and McPhee",
+    "sgl1": "Chris Andrews",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "1"
+  },
+  {
+    "orderid": 42,
+    "crn": "213",
+    "title": "Population Matters",
+    "sgl1": "Mary Jo Bane",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 43,
+    "crn": "214",
+    "title": "Stem Cells",
+    "sgl1": "Peter White",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 44,
+    "crn": "319",
+    "title": "Presidential Election 2020",
+    "sgl1": "Marge Mulkerin",
+    "sgl2": "Alice Isenberg",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 45,
+    "crn": "320",
+    "title": "The Ancient Mayas of Mesoamerica: Chronicles, Art, and Other Treasures",
+    "sgl1": "Andy Cohn",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 46,
+    "crn": "321",
+    "title": "Twelve Classic Rock Albums (with High Fidelity)",
+    "sgl1": "Eric Ziering",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 47,
+    "crn": "111",
+    "title": "Balancing the Seesaw Between the Consumer and Marketer",
+    "sgl1": "Steven Roth",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 48,
+    "crn": "112",
+    "title": "It's Time To Lead Your First Study Group!",
+    "sgl1": "Judith Elstein",
+    "sgl2": "Anne Serrell",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 49,
+    "crn": "113",
+    "title": "Minority Voices in Contemporary American Poetry",
+    "sgl1": "Judith Herman",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 50,
+    "crn": "114",
+    "title": "The American Short Story From 2000 to 2015",
+    "sgl1": "Susan LaDue",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 51,
+    "crn": "215",
+    "title": "Circe: Witch or Wonder Woman?",
+    "sgl1": "Judy Uhl",
+    "sgl2": "David Bliss",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 52,
+    "crn": "216",
+    "title": "Societal Limitations in Six Foreign Films",
+    "sgl1": "Carol Albright",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 53,
+    "crn": "217",
+    "title": "Soul, Self, and Society: The Evolution of Societal Morality",
+    "sgl1": "Robert Kagan",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 54,
+    "crn": "218",
+    "title": "The Leopard and Lampedusa: Two Novels of Fading Grandeur and Change",
+    "sgl1": "Ted Cohen",
+    "sgl2": " ",
+    "day": "Wednesday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 55,
+    "crn": "322",
+    "title": "American Presidents of War",
+    "sgl1": "Fred Davis",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 56,
+    "crn": "323",
+    "title": "Hamlet and Twelfth Night: Shakespeare in Tragic and Comic Mode",
+    "sgl1": "Sharon Hamilton",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 57,
+    "crn": "324",
+    "title": "Memoir Writing: If Not Now, When?",
+    "sgl1": "Judy Foreman",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 58,
+    "crn": "325",
+    "title": "Myanmar/Burma: Internal Challenges, Outside Interests",
+    "sgl1": "Jennifer Huntington",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 59,
+    "crn": "326",
+    "title": "Rome at the Time of Augustus",
+    "sgl1": "John Willson",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 60,
+    "crn": "327",
+    "title": "The Brain",
+    "sgl1": "Murray Smith",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 61,
+    "crn": "115",
+    "title": "The Pillow Book of Sei Shonagon: Wit and Wisdom from Medieval Japan",
+    "sgl1": "Barbara Burr",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "1"
+  },
+  {
+    "orderid": 62,
+    "crn": "116",
+    "title": "The West and the Rest",
+    "sgl1": "John Strand",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "1"
+  },
+  {
+    "orderid": 63,
+    "crn": "219",
+    "title": "Are Corporations People?",
+    "sgl1": "Alan Altshuler",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 64,
+    "crn": "220",
+    "title": "Turgenev's Bazarov: Who Is He? What Is He?",
+    "sgl1": "Katherine O'Connor",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "AM",
+    "duration": "2"
+  },
+  {
+    "orderid": 65,
+    "crn": "328",
+    "title": "From Privilege to Right: The Tangled History of American Voting",
+    "sgl1": "Jeanne Pickering",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 66,
+    "crn": "329",
+    "title": "Jennifer Egan: A Chronological Study",
+    "sgl1": "Lee Sinai",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 67,
+    "crn": "330",
+    "title": "Looking at “Truth” Through the Lens of German-Occupied France",
+    "sgl1": "Diane Coutu",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "Full"
+  },
+  {
+    "orderid": 68,
+    "crn": "117",
+    "title": "Only Connect",
+    "sgl1": "Karen Stone",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 69,
+    "crn": "118",
+    "title": "Scary Viruses: When If Becomes Now–Responding to COVID-19",
+    "sgl1": "Gerald Keusch",
+    "sgl2": "Dan McCarthy",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "1"
+  },
+  {
+    "orderid": 70,
+    "crn": "221",
+    "title": "Coming of Age in the Ghetto: Henry Roth’s Call It Sleep",
+    "sgl1": "Michael Bennett",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 71,
+    "crn": "222",
+    "title": "The Cathars: Perfect or Not?",
+    "sgl1": "Jean Bonney",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 72,
+    "crn": "223",
+    "title": "The Rembrandt's Gone! A Close Look at the World of Art Heists",
+    "sgl1": "Kate McGillicuddy",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "2"
+  },
+  {
+    "orderid": 73,
+    "crn": "224",
+    "title": "Urban Transportation Futures: New Technology-Based Mobility Services",
+    "sgl1": "Dan Roos",
+    "sgl2": " ",
+    "day": "Thursday",
+    "time": "PM",
+    "duration": "2"
+  }
+]

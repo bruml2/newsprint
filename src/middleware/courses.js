@@ -1,8 +1,21 @@
-/** courses.js  -  middleware which adds the "courses" property (an array)
- *  to the res.local.partials object;
- * May 24, 2020
+/** courses.js  -  middleware which adds the "courses" property (an array
+ *  read from a file) to the res.locals object;
+ * May 25, 2020
  */
 
+'use strict'
+const coursesArr = require('../../data/coursesArr.json') // must have .json extension;
+console.log(`${coursesArr.length} courses read from file`)
+
+const coursesMiddleware = (req, res, next) => {
+  // if(!res.locals.partials) res.locals.partials = {}
+  res.locals.courses = coursesArr
+  next()
+}
+
+module.exports = coursesMiddleware
+
+/*
 const getCoursesData = () => ([
   {
     "num": 601,
@@ -41,11 +54,4 @@ const getCoursesData = () => ([
     "syllabus": "605syllabus.pdf"
   }
 ])
-
-const coursesMiddleware = (req, res, next) => {
-  if(!res.locals.partials) res.locals.partials = {}
-  res.locals.partials.courses = getCoursesData()
-  next()
-}
-
-module.exports = coursesMiddleware
+*/
