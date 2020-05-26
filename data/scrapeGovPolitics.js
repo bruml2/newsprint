@@ -12,6 +12,7 @@ const makeMemberObj = barSep => {
   let memberObj = {}
   let since = ''
   let fields = barSep.split('|')
+  // console.dir(fields)
   if (fields[2].match(/Read more +about/)) { fields.splice(2, 1) }
   if (fields[2].includes('Member Since') || fields[2].includes('Participant')) {
      matchesArr = fields[2].match(/\d\d\d\d/)
@@ -26,7 +27,7 @@ const makeMemberObj = barSep => {
   }
 
   memberObj.name = fields[0].trim()
-  memberObj.shortbio = fields[1].trim()
+  memberObj.shortbio = fields[1].replace(/Read more .+/, '').trim()
   memberObj.since = since
   memberObj.address = {}
   let addr = fields[2].trim()
@@ -37,8 +38,8 @@ const makeMemberObj = barSep => {
     addr = addr.slice(0, zip.index).trim()
   } else {
     memberObj.address.zip = ''
-    console.log(barSep)
-    console.log('  ==> zip code is missing')
+    // console.log(barSep)
+    // console.log('  ==> zip code is missing')
   }
   let state = null
   if (state = addr.match(/\.$/)) addr = addr.slice(0, state.index).trim()
@@ -50,8 +51,8 @@ const makeMemberObj = barSep => {
       memberObj.address.state = "MA"
     } else {
       memberObj.address.state = ''
-      console.log('State  ', addr)
-      console.log('  ==> state is missing')
+      // console.log('State  ', addr)
+      // console.log('  ==> state is missing')
     }
   }
   let town = addr.split(',')
@@ -74,18 +75,20 @@ const makeMemberObj = barSep => {
   }
   memberObj.email = fields[3]
   let tel = fields[4]
+  let mobile = undefined
+  let extra = "";
+
+  [ tel, mobile, extra ] = tel.split(';')
   tel = tel.replace('p: ', '').trim()
-  console.log(tel)
   if (/^\(\d\d\d\) ?\d\d\d-\d\d\d\d$/.test(tel)) {
     let match = tel.match(/\((\d\d\d)\) (\d\d\d-\d\d\d\d)/)
     memberObj.tel = match[1] + '-' + match[2]
   } else {
     memberObj.tel = tel
   }
-  // /(?<animal>fox|cat) jumps over/;
-  // console.log(addr)
-  // console.log(`zip is ${zip[0]} starting at index ${zip.index}`)
-  console.log(fields.length, "|", fields[0], "|", fields[4], "|", memberObj.tel)
+  memberObj.mobile = mobile ? mobile.match(/\(?\d\d\d\)?.\d\d\d-\d\d\d\d/)[0] : ''
+  // console.log(fields.length, fields)
+  return memberObj
 }
 
 const getMembers = (html, group) => {
@@ -102,5 +105,5 @@ const getMembers = (html, group) => {
 }
 
 const groupObj = getMembers(html, "govpolitics")
-// console.dir(groupObj.members)
+console.dir(JSON.stringify(groupObj.members, null, 2))
 console.log(`${groupObj.groupName} has ${groupObj.members.length} members.`)
