@@ -72,9 +72,20 @@ const makeMemberObj = barSep => {
         }
     }
   }
+  memberObj.email = fields[3]
+  let tel = fields[4]
+  tel = tel.replace('p: ', '').trim()
+  console.log(tel)
+  if (/^\(\d\d\d\) ?\d\d\d-\d\d\d\d$/.test(tel)) {
+    let match = tel.match(/\((\d\d\d)\) (\d\d\d-\d\d\d\d)/)
+    memberObj.tel = match[1] + '-' + match[2]
+  } else {
+    memberObj.tel = tel
+  }
+  // /(?<animal>fox|cat) jumps over/;
   // console.log(addr)
   // console.log(`zip is ${zip[0]} starting at index ${zip.index}`)
-  // console.log(fields.length, fields[2], '|', fields[3])
+  console.log(fields.length, "|", fields[0], "|", fields[4], "|", memberObj.tel)
 }
 
 const getMembers = (html, group) => {
