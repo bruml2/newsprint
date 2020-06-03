@@ -79,7 +79,7 @@ const makeMemberObj = barSep => {
 }
 
 const getMembers = (htmlfile, group) => {
-  const html = fs.readFileSync('./govpolitics.html',
+  const html = fs.readFileSync(htmlfile,
                          {encoding:'utf8', flag:'r'}).toString()
   const $ = cheerio.load(html)
   let membersArr = []
@@ -94,12 +94,12 @@ const getMembers = (htmlfile, group) => {
   }
 }
 
-const govPoliticsObj = getMembers('./govpolitics.html', "govpolitics")
-// fs.writeFileSync("govPoliticsObj.json", JSON.stringify(govPoliticsObj, undefined, 2))
+const govPoliticsMembersObj = getMembers('./newgovpol.html', "govpolitics")
+// fs.writeFileSync("govPoliticsMembersObj.json", JSON.stringify(govPoliticsMembersObj, undefined, 2))
 
 // other groups
 
-// console.dir(JSON.stringify(govPoliticsObj.members, null, 2))
-// console.log(`${govPoliticsObj.groupName} has ${govPoliticsObj.members.length} members.`)
+// console.dir(JSON.stringify(govPoliticsMembersObj.members, null, 2))
+// console.log(`${govPoliticsMembersObj.groupName} has ${govPoliticsMembersObj.members.length} members.`)
 
-// fs.writeFileSync("membersArr.json", JSON.stringify(membersArr, undefined, 2))
+fs.writeFileSync("membersGPB.json", JSON.stringify(govPoliticsMembersObj, undefined, 2))

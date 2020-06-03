@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<link rel="dns-prefetch" href="//static.projects.iq.harvard.edu" />
+<base href="/members/cohort" />
+<link rel="shortcut icon" href="https://projects.iq.harvard.edu/profiles/openscholar/themes/hwpi_basetheme/favicon.png" />
+<meta name="generator" content="OpenScholar for Drupal 7 (http://theopenscholar.org)" />
+<link rel="canonical" href="https://projects.iq.harvard.edu/members/cohort" />
+<link rel="shortlink" href="https://projects.iq.harvard.edu/members/node/1439452" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Spring 2020 Cohort" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Spring 2020 Cohort" />
+<meta name="twitter:image" content="https://projects.iq.harvard.edu/" />
+<title>Spring 2020 Cohort | members</title>
+<meta http-equiv="x-ua-compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"5f8d8e8e9f",applicationID:"96415669"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css?m=1588754295" media="all" />
+<link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_1kR8T1_c-l5pBT6ZwbDT7BFda-4fyqW9Jjum29_2IY8.css?m=1588754351" media="all" />
+<link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_YnlUIvHP13qgpYEqubzE8JyDwlSxUnVibfnVkSoSDb0.css?m=1588754263" media="all" />
+<link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_O-TFyZeotTafMbgx2-qCnXBycWM_y36WQwcXpdvRLp0.css?m=1588754859" media="all" />
+<link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_33z4KGY5BknhghATEcEwnnJeljoxSXNC2qm1_tyZjU0.css?m=1588754293" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_dW-aNNrctRhQNc-KECjtQd0PxuW-h19IEum-TX2MeEk.css?m=1588754329" media="print" />
+<link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_SH2Lx3Qprh0GZo_9xRp85U9NsWfkSXn_Bi-rJoMY1sw.css?m=1588754261" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://projects.iq.harvard.edu/files/css/css_uaIDKcYMUK5osSQXuirpr3ZleXtnnpBN-eiECm7N0M0.css?m=1588754533" media="all" />
+  <!--[if lte IE 8]>
+<script type="text/javascript">
+  var os_c = document.createElement;os_c('header');os_c('nav');os_c('section');os_c('article');os_c('aside');os_c('footer');os_c('hgroup');os_c('figure');
+</script>
+  <![endif]-->
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1439452 node-type-page og-context og-context-node og-context-node-689831 navbar-on" ng-app="openscholar">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable" tabindex="1">Skip to main content</a>
+  </div>
+    <div id="page_wrap" class="page_wrap">
+<!--REGION TO HOUSE RESPONSIVE MENU. OTHER CONTENT CAN'T BE PLACED HERE-->
+<div class="responive-menu-container clearfix">
+  <ul class="mobile-buttons num-links-3"><li class="link-count-mobi-main first"><a href="#"  data-target="#block-os-primary-menu"><span aria-hidden="true" class="icon-menu"></span><span class="move">Main Menu</span></a></li><li class="link-count-mobi-util"><a href="#"  data-target="#block-os-quick-links, #block-os-secondary-menu, #header .os-custom-menu"><span aria-hidden="true" class="icon-plus"></span><span class="move">Utility Menu</span></a></li><li class="link-count-mobi-search last"><a href="#"  data-target="#block-os-search-db-site-search, #block-boxes-solr-search-box"><span aria-hidden="true" class="icon-search3"></span><span class="move">Search</span></a></li></ul></div>
+
+<!--FLEXIBLE ADMIN HEADER FOR USE BY SELECT GROUPS USING OS-->
+	<div id="branding_header">
+		<div  class="branding-container clearfix">
+		  <div class="branding-left"><a href="http://www.harvard.edu/" ><img src="https://projects.iq.harvard.edu/profiles/openscholar/themes/hwpi_basetheme/images/harvard-logo.png" width="235" height="32" alt="University Logo" /></a></div><div class="branding-right"><a href="http://www.harvard.edu/" >HARVARD.EDU</a></div>		</div>
+	</div>
+
+<div id="page" class="container page header-main header-right content-top content-left footer-none">
+	<div id="page-wrapper">
+
+
+					<!--header regions beg-->
+			<header id="header" class="clearfix" role="banner">
+			 <div id="header-container">
+				 <div id="header-panels" class="at-panel gpanel panel-display three-col clearfix">
+					  					  <div class="region region-header-second"><div class="region-inner clearfix"><div id="block-boxes-1498506760" class="block block-boxes block-boxes-os_boxes_html no-title"  module="boxes" delta="1498506760"><div class="block-inner clearfix">
+
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-1498506760' class='boxes-box'><div class="boxes-box-content"><img height="130" width="994" alt="HILR Community Website" class="media-element file-default file-os-files-xxlarge" src="//static.projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/members/files/websitehilrbanner.jpg?m=1554065848&amp;itok=fmnLCjTb" title="" /></div></div></div>
+  </div></div></div></div>					  					  <div class="region region-header-third"><div class="region-inner clearfix"><div id="block-boxes-1498767078" class="block block-boxes block-boxes-os_boxes_media no-title"  module="boxes" delta="1498767078"><div class="block-inner clearfix">
+
+  <div class="block-content content"><div id='boxes-box-1498767078' class='boxes-box'><div class="boxes-box-content"><div id="file-3538551" class="file file-image file-image-png">
+
+          <h2 class="element-invisible"><a href="https://projects.iq.harvard.edu/files/members/files/hilr-shield.png?m=1498767063">hilr-shield.png</a></h2>
+
+
+  <div class="content">
+    <img class="image-style-os-files-xxlarge" src="//static.projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/members/files/hilr-shield.png?m=1515694052&amp;itok=kTb5ekti" width="48" height="55.351351351351" alt="HILR Shield" title="HILR Shield" />  </div>
+
+
+</div>
+</div></div></div>
+  </div></div><div id="block-os-header-menu" class="block block-os os-custom-menu no-title"  module="os" delta="header_menu"><div class="block-inner clearfix">
+
+  <div class="block-content content" ng-non-bindable=""><ul class="nice-menu nice-menu-down nice-menu-header_menu" id="nice-menu-header_menu"><li class="menu-209594 menu-path-membershilrharvardedu-hilr-contacts  first   odd   last "><a href="http://members.hilr.harvard.edu/hilr-contacts" >Contact</a></li></ul>
+</div>
+  </div></div></div></div>					  				 </div>
+			  </div>
+		  </header>
+      <!--header regions end-->
+
+				  <!--main menu region beg-->
+		  <div id="menu-bar" class="nav region-menu-bar clearfix"><nav id="block-os-primary-menu" class="block block-os no-title menu-wrapper menu-bar-wrapper clearfix"  module="os" delta="primary-menu">
+
+  <ul class="nice-menu nice-menu-down nice-menu-primary-menu" id="nice-menu-primary-menu"><li class="menu-208940 menu-path-membershilrharvardedu-  first   odd  "><a href="http://members.hilr.harvard.edu/" >Home</a></li><li class="menu-320500 menu-path-node-1308401   even  "><a href="/members/members-0"  title="People Home Page">People</a></li><li class="menu-208944 menu-path-membershilrharvardedu-courses-0   odd  "><a href="http://members.hilr.harvard.edu/courses-0" >Courses</a></li><li class="menu-208946 menu-path-membershilrharvardedu-calendar-0   even  "><a href="http://members.hilr.harvard.edu/calendar-0"  title="">Calendar of Events</a></li><li class="menu-208948 menu-path-membershilrharvardedu-dce_opensandbox_sub1-arts-hilr   odd  "><a href="http://members.hilr.harvard.edu/dce_opensandbox_sub1/arts-hilr" >Arts</a></li><li class="menu-208950 menu-path-membershilrharvardedu-hilr-committees-committees   even  "><a href="http://members.hilr.harvard.edu/hilr-committees/committees" >Committees</a></li><li class="menu-208952 menu-path-membershilrharvardedu-hilr-groups-groups   odd  "><a href="http://members.hilr.harvard.edu/hilr-groups/groups" >Groups</a></li><li class="menu-208954 menu-path-membershilrharvardedu-resources   even   last "><a href="http://members.hilr.harvard.edu/resources" >Office</a></li></ul>
+
+  </nav></div>		  <!--main menu region end-->
+
+
+		<div id="columns" class="clearfix">
+			<div class="hg-container">
+				<div id="content-column" role="main">
+					<div class="content-inner">
+
+													              <a name="main-content"></a>
+															<header id="main-content-header">
+									<a name="main-content"></a>
+                    <h1 id="page-title" ng-non-bindable="">
+                      Spring 2020 Cohort                    </h1>
+                </header>
+
+															<!--front panel regions beg-->
+								<div id="content-panels" class="at-panel gpanel panel-display content clearfix">
+									<div class="region region-content-top"><div class="region-inner clearfix"><div id="block-os-pages-main-content" class="block block-os-pages no-title"  module="os_pages" delta="main_content"><div class="block-inner clearfix">
+
+  <div class="block-content content" ng-non-bindable=""><article id="node-1439452" class="node node-page article clearfix" role="article">
+
+
+
+  <div class="node-content" ng-non-bindable="">
+      </div>
+
+
+
+  </article>
+</div>
+  </div></div></div></div>									<div class="region region-content-first"><div class="region-inner clearfix"><div id="block-boxes-1526727057" class="block block-boxes block-boxes-os_boxes_manual_list styled no-title"  module="boxes" delta="1526727057"><div class="block-inner clearfix">
+
+  <div class="block-content content" ng-non-bindable=""><div id='boxes-box-1526727057' class='boxes-box'><div class="boxes-box-content"><div class="item-list"><ul class="featured-links"><li><article id="node-1477403" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/suzanne-buchko" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/suzanne_buchko.jpg?m=1579615367&amp;itok=Hq1CYGst" width="75" height="75" alt="Suzanne Buchko" title="Suzanne Buchko" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/suzanne-buchko" rel="bookmark">Suzanne Buchko</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-field-website field-type-link-field field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="https://chasingjoy.net"  title="Suzanne Buchko&#039;s website">https://chasingjoy.net</a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since spring 2020
+<br>8 Jenison St, Apt 1
+<br>Newton, MA 02460</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:suzbuchko@gmail.com" >suzbuchko@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (608) 217-6615</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477402" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/michael-bouscaren" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/screen_shot_2020-01-05_at_2.37.59_pm.png?m=1578254823&amp;itok=2yz4uyS8" width="75" height="75" alt="Michael Bouscaren" title="Michael Bouscaren" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/michael-bouscaren" rel="bookmark">Michael Bouscaren</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><ul><li>
+		Ten years retired after 35 years in investment advisory services
+	</li>
+	<li>
+		Currently practice and teach yoga/meditation
+	</li>
+	<li>
+		Keen...</li></ul><a href="/members/people/michael-bouscaren" class="node-readmore">Read more <span class="element-invisible"> about Michael Bouscaren</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since spring 2020
+<br>201 Freeman St
+<br>Brookline, MA 02446</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:mikefred@comcast.net" >mikefred@comcast.net</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 833-8606</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477404" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/jill-card" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/jillcarad.jpg?m=1580148513&amp;itok=YWlwULhA" width="75" height="75" alt="Jill Card" title="Jill Card" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/jill-card" rel="bookmark">Jill Card</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Jill Card enjoyed a 35-year career in the area of mathematical modelling of complex systems; originally trained in wildlife biology and physiology (...</p> <a href="/members/people/jill-card" class="node-readmore">Read more <span class="element-invisible"> about Jill Card</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since spring 2020
+<br>419B Haley Road
+<br>Kittery Point, ME 03905</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:jill.card@gmail.com" >jill.card@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: 978-376-6395</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477405" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/michael-collora" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/michaelcollora.jpg?m=1578942677&amp;itok=tzG30f0c" width="75" height="75" alt="Collora" title="Michael Collora" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/michael-collora" rel="bookmark">Michael Collora</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Michael, who lives in Newton Ma., just retired from the practice of law on 12/31/2019 after approximately 50 years in Boston. He was born in the midwest and... <a href="/members/people/michael-collora" class="node-readmore">Read more <span class="element-invisible"> about Michael Collora</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since spring 2020
+<br>40 Kelveden Road
+<br>Newton, MA 02468</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:macollora@gmail.com" >macollora@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: 617 967 5100</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477430" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/william-docken" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/williamdocken.jpg?m=1578942770&amp;itok=cBz-EhlK" width="75" height="75" alt="Docken" title="William Docken" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/william-docken" rel="bookmark">William Docken</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Bill Docken was born and raised in Northern Minnesota, attended prep school at the Phillips Exeter Academy, majored in English at Harvard College, and...</p> <a href="/members/people/william-docken" class="node-readmore">Read more <span class="element-invisible"> about William Docken</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>1 Charles Street South #407
+<br> Boston, MA 02116</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:wdocken@partners.org" >wdocken@partners.org</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (857) 293-3079</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477408" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/marcia-folsom" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/mfolsom.jpg?m=1579302980&amp;itok=x3Nn51OH" width="75" height="75" alt="M Folsom" title="Marcia McClintock Folsom" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/marcia-folsom" rel="bookmark">Marcia McClintock Folsom</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">I grew up in Columbus, Ohio, where I attended to OSU's University School from Grade 2 to 12. I went to Wellesley College, majored in English, graduated with... <a href="/members/people/marcia-folsom" class="node-readmore">Read more <span class="element-invisible"> about Marcia McClintock Folsom</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>66 Rutland Street
+<br>Boston MA 02118</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:marciafolsom@gmail.com" >marciafolsom@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 266-4194</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477411" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/michael-kan" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/michaelkan.jpg?m=1578942897&amp;itok=9HTiE3k5" width="75" height="75" alt="Kan" title="Michael Kan" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/michael-kan" rel="bookmark">Michael Kan</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Michael has had a diverse career in management, starting first in bank operations at Crocker Bank in San Francisco, followed by roles as Assistant Town...</p> <a href="/members/people/michael-kan" class="node-readmore">Read more <span class="element-invisible"> about Michael Kan</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>55 Manchester Road
+<br>Newton Highlands MA 02461</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:kan.michael.100@gmail.com" >kan.michael.100@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 960-6001</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477412" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/james-kinlan" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/kinlan.jpg?m=1579202719&amp;itok=QLNToVAa" width="75" height="75" alt="Kinlan" title="Jim Kinlan" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/james-kinlan" rel="bookmark">Jim Kinlan</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Born to Irish immigrants and the youngest of six children, I grew up in Yonkers NY. I journeyed down to Manhattan each day for high school to...</p> <a href="/members/people/james-kinlan" class="node-readmore">Read more <span class="element-invisible"> about Jim Kinlan</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>15 Lee Road
+<br>Chestnut Hill, MA 02467</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:jkinlan@gmail.com" >jkinlan@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 417-7220</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477413" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/jordan-krasnow" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/jordankrasnow.jpg?m=1578945051&amp;itok=fd2IR7vf" width="75" height="75" alt="Krasnow" title="Jordan Krasnow" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/jordan-krasnow" rel="bookmark">Jordan Krasnow</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Jordan practiced Commercial Real Estate law for 46 years. Until he retired from active practice in 2012, he was a Director at Goulston &amp; Storrs for 26...</p> <a href="/members/people/jordan-krasnow" class="node-readmore">Read more <span class="element-invisible"> about Jordan Krasnow</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>108 Pond Street
+<br>Jamaica Plain MA 02130</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:jpk@zrun.org" >jpk@zrun.org</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 610-8242</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477431" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/deirdre-leopold" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/dee_leopold_phto.jpg?m=1579622092&amp;itok=uX41AyKk" width="75" height="75" alt="Dee Leopold" title="Deirdre Leopold" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/deirdre-leopold" rel="bookmark">Deirdre Leopold</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:deirdreleopold@gmail.com" >deirdreleopold@gmail.com</a></div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477415" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/henry-lerner" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/henrylerner.jpg?m=1578944051&amp;itok=gvbBfrSq" width="75" height="75" alt="Henry" title="Henry Michael Lerner" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/henry-lerner" rel="bookmark">Henry Michael Lerner</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-field-professional-title field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">M.D.</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Henry Lerner is an obstetrician-gynecologist who has been practicing at the Newton-Wellesley Hospital for the past 40 years. After graduating Princeton... <a href="/members/people/henry-lerner" class="node-readmore">Read more <span class="element-invisible"> about Henry Michael Lerner</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since spring 2020
+<br>196 Windsor Rd
+<br>Waban, MA 01938</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:hmlerner@henrylerner.com" >hmlerner@henrylerner.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 894-1397</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477416" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/carole-malcolmson" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/carole_malcolmson_headshot.jpeg?m=1579622234&amp;itok=GzBzezE3" width="75" height="75" alt="Carole Malcolmson" title="Carole Malcolmson" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/carole-malcolmson" rel="bookmark">Carole Malcolmson</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:malcolca@gmail.com" >malcolca@gmail.com</a></div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477417" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/gerard-mason" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/gerrymason.jpg?m=1585579416&amp;itok=InNuGMzs" width="75" height="75" alt="Mason" title="Gerry Mason" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/gerard-mason" rel="bookmark">Gerry Mason</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Birthplace: Coeur d'Alene, Idaho
+</p>
+
+<p>
+	Education: BA, Columbia University PhD Fellowship (English Lit) Boston College
+</p>
+
+<p>
+	Marital Status:...</p> <a href="/members/people/gerard-mason" class="node-readmore">Read more <span class="element-invisible"> about Gerry Mason</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since spring 2020
+<br>175 Country Club Way
+<br>Ipswich MA 01938</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:gerrymason3@gmail.com" >gerrymason3@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (631) 921-4149</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477418" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/timothy-mcgovern" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/tim_-_photo.jpeg?m=1581089400&amp;itok=Gs16T-jZ" width="75" height="75" alt="Tim" title="Tim McGovern" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/timothy-mcgovern" rel="bookmark">Tim McGovern</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Born and raised in the suburbs of Philadelphia, I grew up in a traditional working class, Catholic household. In time, I attended and graduated from Saint...</p> <a href="/members/people/timothy-mcgovern" class="node-readmore">Read more <span class="element-invisible"> about Tim McGovern</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>93 Eliot Avenue
+<br>West Newton MA 02465</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:tim.mcgovern.ma.us@gmail.com" >tim.mcgovern.ma.us@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 759-5170</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477419" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/dierdre-menoyo" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/deirdre_menoyo.jpg?m=1579460554&amp;itok=G1EWJTe9" width="75" height="75" alt="Deirdre Menoyo" title="Deirdre Menoyo" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/dierdre-menoyo" rel="bookmark">Deirdre Menoyo</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Native New Yorkers, my family and I arrived in Sudbury MA on April Fools day, 1976, just in time for the Bicentennial. There I raised two great kids, started... <a href="/members/people/dierdre-menoyo" class="node-readmore">Read more <span class="element-invisible"> about Deirdre Menoyo</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>2 Walker Road
+<br>Manchester, MA 01944</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:d@menoyo.us" >d@menoyo.us</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (978) 764-3088</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477420" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/thea-offermann" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/t._offermann_head_shot.jpg?m=1578948105&amp;itok=Cj6XwIiU" width="75" height="75" alt="offermann" title="Thea Offermann" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/thea-offermann" rel="bookmark">Thea Offermann</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:toffermann@sarplus.com" >toffermann@sarplus.com</a></div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477432" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/patricia-quinlan" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/hilr_photo_quinlan.jpg?m=1579207584&amp;itok=rSCq5YDH" width="75" height="75" alt="Quinlan" title="Patricia Quinlan" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/patricia-quinlan" rel="bookmark">Patricia Quinlan</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Patricia Quinlan has enjoyed living in Boston and Cambridge since attending Tufts University in 1969 where she majored in English and Drama. Upon...</p> <a href="/members/people/patricia-quinlan" class="node-readmore">Read more <span class="element-invisible"> about Patricia Quinlan</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>7 1/2 Brewer St
+<br>Cambridge, MA 02138</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:patriciajquinlan@gmail.com" >patriciajquinlan@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: 617-233-9838</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477422" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/steven-roth" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/steven_roth_003_1.png?m=1580946756&amp;itok=FY6rgBGx" width="75" height="75" alt="Steven Roth" title="Steven Roth" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/steven-roth" rel="bookmark">Steven Roth</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Steven Roth is a semi-retired, independent marketing consultant and thought leader; primarily to the arts and culture industry. He has been an adjunct lecturer... <a href="/members/people/steven-roth" class="node-readmore">Read more <span class="element-invisible"> about Steven Roth</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>34 Brenton Road
+<br>Weston, MA 02493</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:sroth27@comcast.net" >sroth27@comcast.net</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: 781-330-9967</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477423" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/barbara-schnepper" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/ellen_schnepper.png?m=1581190413&amp;itok=fkLD27fT" width="75" height="75" alt="Schnepper" title="Ellen Schnepper" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/barbara-schnepper" rel="bookmark">Ellen Schnepper</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">I’m a retired literature teacher and attorney. I practiced appellate law and also worked as a mediator.</div></div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:besesq1@aol.com" >besesq1@aol.com</a></div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477433" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/jennifer-snyder" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/jennifersnyer.png?m=1578945167&amp;itok=_x-QRdg_" width="75" height="75" alt="Snyer" title="Jennifer Snyder" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/jennifer-snyder" rel="bookmark">Jennifer Snyder</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	I grew up in Northern California, the youngest of five daughters. My father was in the military. Although my mother never had a real career, she...</p> <a href="/members/people/jennifer-snyder" class="node-readmore">Read more <span class="element-invisible"> about Jennifer Snyder</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>10 Allen Road
+<br> Wellesley MA 02481</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:jenniferclarksnyder@gmail.com" >jenniferclarksnyder@gmail.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 721-7378</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477425" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/stacy-stein" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/stacystein.jpg?m=1578944453&amp;itok=eUFINMsz" width="75" height="75" alt="Stein" title="Stacy Stein" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/stacy-stein" rel="bookmark">Stacy Stein</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:steinstacy1@msn.com" >steinstacy1@msn.com</a></div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477426" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/r-gordon-talley" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/gordontalley-forweb.jpeg?m=1579361090&amp;itok=GrFunsi_" width="75" height="75" alt="R. Gordon Talley" title="R. Gordon Talley" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/r-gordon-talley" rel="bookmark">R. Gordon Talley</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	Here’s what I wrote for my 50th college reunion. It’s still mostly true.<br />---<br />So much water … so many bridges. Where to start? Why not R.V. Smith,...</p> <a href="/members/people/r-gordon-talley" class="node-readmore">Read more <span class="element-invisible"> about R. Gordon Talley</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>25 Magazine Street
+<br>Cambridge, MA 02139</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:rgtalley@mac.com" >rgtalley@mac.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 497-7490</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477427" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/esther-c-verba" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/cynthiaverba.jpg?m=1582233775&amp;itok=DCO0h21o" width="75" height="75" alt="Verba" title="Cynthia Verba" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/esther-c-verba" rel="bookmark">Cynthia Verba</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><p>
+	For as long as I can remember, music has been a constant companion: from playing and harmonizing my favorite tunes on the piano even before I had my first...</p> <a href="/members/people/esther-c-verba" class="node-readmore">Read more <span class="element-invisible"> about Cynthia Verba</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since Spring 2020
+<br>983 Memorial Drive Apt 201
+<br>Cambridge MA 02138</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:cverba@fas.harvard.edu" >cverba@fas.harvard.edu</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (857) 242-3481</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477428" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/daniel-whittet" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/dan_whittet.jpg?m=1581025095&amp;itok=vwcxGpAC" width="75" height="75" alt="Dan Whittet" title="Dan Whittet" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/daniel-whittet" rel="bookmark">Daniel Whittet</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"><div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Dan Whittet has worked in the Energy and Sustainability field for most of his career, which began as a builder on islands off the coast of Maine, then migrated... <a href="/members/people/daniel-whittet" class="node-readmore">Read more <span class="element-invisible"> about Daniel Whittet</span></a></div></div></div></div><div class="field field-name-field-address field-type-text-long field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">Participant since spring 2020
+<br>15 Saran Avenue
+<br>Bedford, MA 01730</div></div></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:daniel_whittet@aha-engineers.com" >daniel_whittet@aha-engineers.com</a></div></div></div><div class="field field-name-field-phone field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even">p: (617) 335-2328</div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li><li><article id="node-1477429" class="node node-person node-teaser article with-person-photo modified-in-os_profiles_process_node clearfix" role="article">
+
+
+
+    <div class="field field-name-field-person-photo field-type-imagefield-crop field-label-hidden view-mode-teaser">
+    <div class="field-items">
+            <div class="field-item even">
+      <figure>
+        <a href="/members/people/anne-whittredge" ><img class="image-style-profile-thumbnail" src="//static.projects.iq.harvard.edu/files/styles/profile_thumbnail/public/members/files/annewhit.jpg?m=1579272850&amp;itok=mHTNzuHe" width="75" height="75" alt="Anne Whittredge" title="Anne Whittredge" /></a>              </figure>
+      </div>
+        </div>
+</div>
+    <div class="person-teaser-wrapper">
+              <header class="node-header">
+                      <h1 class="node-title" rel="nofollow" ng-non-bindable="">
+              <a href="/members/people/anne-whittredge" rel="bookmark">Anne Whittredge</a>
+            </h1>
+                  </header>
+
+      <div class="node-content" ng-non-bindable="">
+        <div class="pic-bio clearfix"></div><div class="field field-name-field-email field-type-text field-label-hidden view-mode-teaser"><div class="field-items"><div class="field-item even"><a href="mailto:anne.whittredge@gmail.com" >anne.whittredge@gmail.com</a></div></div></div>      </div>
+
+
+
+          </div>
+
+  </article>
+</li></ul></div></div></div></div>
+  </div></div></div></div>																										</div>
+								<!--front panel regions end-->
+
+											</div>
+				</div>
+
+
+								  <!--sidebar second region beg-->
+				  <div class="region region-sidebar-second sidebar"><div class="region-inner clearfix"><div id="block-os-secondary-menu" class="block block-os no-title"  module="os" delta="secondary-menu"><div class="block-inner clearfix">
+
+  <div class="block-content content" ng-non-bindable=""><ul class="menu clearfix"><li class="first leaf menu-depth-1 menu-item-281896"><a href="/members/how-update-line-directories"  title="Update your bio listing">Updating Your Bio Bank Page</a></li><li class="leaf menu-depth-1 menu-item-518025"><a href="/members/your-news"  title="">Your News</a></li><li class="leaf menu-depth-1 menu-item-518031"><a href="/members/cohort"  title="" class="active">Spring 2020 Cohort</a></li><li class="leaf menu-depth-1 menu-item-209586"><a href="http://members.hilr.harvard.edu/members/memoriam-2016–2017"  title="">In Memoriam</a></li><li class="last leaf menu-depth-1 menu-item-517591"><a href="/members/committee-rosters"  title="">Committee Rosters</a></li></ul></div>
+  </div></div></div></div>				  <!--sidebar second region end-->
+
+			</div>
+		</div>
+		<!--footer region beg-->
+		<footer id="footer" class="clearfix" role="contentinfo">
+		<!-- Three column 3x33 Gpanel -->
+		  <div id="powerby-login">
+  	<a href="/user?destination=node/1439452%3Fadmin_panel%3D1%26login%3D1"  class="footer-login">Admin Login</a>  	<div id="powered-by"><a href="https://theopenscholar.com">OpenScholar</a></div>
+    </div>
+  </footer>
+  </div>
+</div><!--page area ends-->
+
+<div id="extradiv"></div>
+
+  <!--FLEXIBLE ADMIN FOOTER FOR USE BY SELECT GROUPS USING OS-->
+  <div id="branding_footer">
+		<div class="branding-container">
+	    <div class="copyright"><span class="harvard-copyright">Copyright &copy; 2020 The President and Fellows of Harvard College</span>  | <a href="http://accessibility.harvard.edu/" >Accessibility</a> | <a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy" >Digital Accessibility</a> | <a href="http://www.harvard.edu/reporting-copyright-infringements" >Report Copyright Infringement</a></div>		</div>
+  </div>
+
+</div><!-- /page_wrap -->
+
+  <script src="//static.projects.iq.harvard.edu/profiles/openscholar/libraries/respondjs/respond.min.js?qa66t3"></script>
+<script src="//static.projects.iq.harvard.edu/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js?m=1588754774"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"members\/","ajaxPageState":{"theme":"hwpi_classic","theme_token":"TOPtJJ8e_oJrFdifyETAD8mSdoJ0IrmUQISZQI71U4c"},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/members\/jcarousel\/ajax\/views"},"widget_max_width":{"boxes-box-1498767078":"48"},"spaces":{"id":"689831","path":"members"},"os_ga":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|docx?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xlsx?|xml|z|zip","trackNavigation":1},"paths":{"api":"\/api","siteCreationForm":"\/profiles\/openscholar\/modules\/frontend\/os_site_creation\/templates","siteCreationModuleRoot":"\/profiles\/openscholar\/modules\/frontend\/os_site_creation","hasOsId":true},"user":{"uid":0,"name":null},"admin_panel":{"purl_base_domain":"https:\/\/projects.iq.harvard.edu","base_domain":"https:\/\/projects.iq.harvard.edu"},"version":{"siteCreationForm":"1.0.4"},"site_creation":{"subsite_types":{"personal":"personal","project":"project","department":"department"},"privacy_levels":{"0":"Public on the web. \u003Cbr\u003E\u003Cspan class=\u0022description\u0022\u003EAnyone on the Internet can view your site. Your site will show in search results. No sign-in required.\u003C\/span\u003E","2":"Anyone with the link. \u003Cbr\u003E\u003Cspan class=\u0022description\u0022\u003EAnyone who has the URL to your site can view your site. Your site will not be indexed by search engines.\u003C\/span\u003E","1":"Site members only. \u003Cbr\u003E\u003Cspan class=\u0022description\u0022\u003EThis setting can be useful during site creation. Your site will not be indexed by search engines.\u003C\/span\u003E","4":"Harvard Community\u003Cbr\u003E\u003Cspan class=\u0027description\u0027\u003EOnly the Harvard community can access your site. Sign-in via HarvardKey required.\u003C\/span\u003E"},"tos_label":"OpenScholar Terms of Use","tos_url":"https:\/\/hwp.harvard.edu\/terms-use","presets":{"os_department_minimal":{"name":"os_department_minimal","title":"Minimal","description":"Blank site with no pre-set menu links or pages.","site_type":"department"},"os_department":{"name":"os_department","title":"Academic","description":"Pre-set menu links and pages: Academics, Research, Activities, People, Resources, News \u0026amp; Events, About","site_type":"department"},"os_project":{"name":"os_project","title":"Minimal","description":"Blank site with no pre-set menu links or pages.","site_type":"project"},"os_scholar":{"name":"os_scholar","title":"Minimal","description":"Blank site with no pre-set menu links or pages.","site_type":"personal"},"osllc_preset_gradstudent":{"name":"osllc_preset_gradstudent","title":"Grad Student\/Adjunct","description":"A site for grad students or adjuncts currently in the job market","site_type":"personal"},"osllc_preset_medical_professional":{"name":"osllc_preset_medical_professional","title":"Medical Professional","description":"A site for doctors and other medical professionals.","site_type":"personal"},"osllc_preset_project":{"name":"osllc_preset_project","title":"Project Site","description":"A site for a project, separate from any individual involved.","site_type":"personal"},"hwp_administrative":{"name":"hwp_administrative","title":"Administrative","description":"The Harvard Web Publishing standard Adminstrative Department site.","site_type":"department"},"hwp_lab_research_group":{"name":"hwp_lab_research_group","title":"Lab\/Research Group","description":"The Harvard Web Publishing standard Lab and Research Group site.","site_type":"project"},"hwp_project":{"name":"hwp_project","title":"Project","description":"The Harvard Web Publishing standard Project site.","site_type":"project"},"hwp_personal":{"name":"hwp_personal","title":"Personal","description":"The Harvard Web Publishing standard Personal site.","site_type":"personal"},"hwp_event_conference":{"name":"hwp_event_conference","title":"Event\/Conference","description":"The Harvard Web Publishing standard Event or Conference site.","site_type":"project"}},"default_individual_scholar":"os_scholar","default_project_lab_small_group":"os_project","default_department_school":"os_department_minimal"},"urlIsAjaxTrusted":{"\/members\/search\/site":true},"nice_menus_options":{"delay":800,"speed":"slow"},"ogContext":{"groupType":"node","gid":"689831"},"password":{"strengthTitle":"Password compliance:"},"type":"setting"});</script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-sanitize.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-cookies.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.9/ngStorage.min.js"></script>
+<script src="//static.projects.iq.harvard.edu/files/js/js_IR2s50XzV6JO0u7EnqAPwty7E0mm4lr_CYmVcrYcVck.js?m=1588754831"></script>
+<script src="//static.projects.iq.harvard.edu/files/js/js_q3FE3PP7RLdWja_zxasict8yOrxdkui1Q7QO1R4ayS0.js?m=1588754826"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src="//static.projects.iq.harvard.edu/files/js/js_lgi7okOgWq1xK1Y26Tqo7YkR3WP4TaTeMafIAQxfCQI.js?m=1588755855"></script>
+<script>window.CKEDITOR_BASEPATH = '/profiles/openscholar/libraries/ckeditor/'</script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-17689007-1"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_trackPageview"]);_gaq.push(['_setCustomVar',1,'Site homepage','https://projects.iq.harvard.edu/members',3]);_gaq.push(["_setAccount", "UA-107264754-1"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();var addthis_config = {data_ga_social: true, data_ga_property: "UA-107264754-1"};</script>
+<script src="//static.projects.iq.harvard.edu/files/js/js_LiusrpwJT3Sg0H0ZmGojUVryUYFnHLCv1UjzLbWcgsw.js?m=1588754884"></script>
+<script>(function ($) { angular.module('openscholar', ['SiteCreationForm']); })();</script>
+<script src="//static.projects.iq.harvard.edu/files/js/js_DWKKUd8IeQ67FVDRJbW9zcKO5MT87ZGMbV32ROSOQBU.js?m=1588754793"></script>
+<script src="//static.projects.iq.harvard.edu/files/js/js_qluyoBMkmyevXrrhnKB_2ie6cLJ7DL5g_0nHm6hyXwA.js?m=1588754796"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5f8d8e8e9f","applicationID":"96415669","transactionName":"ZQNRMkBUCkpXBxFbXFxJcgVGXAtXGRYAQUdFFWwWU1IBZlUFCV5RUwVY","queueTime":0,"applicationTime":1019,"atts":"SURSRAhOGUQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

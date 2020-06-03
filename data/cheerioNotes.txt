@@ -1,0 +1,151 @@
+
+
+
+<div id="content-panels"
+
+<div id="block-boxes-   <num>
+
+<div id-"boxes-box-1526727057"
+
+<ul class="featured-links">
+  <li>
+    <article
+
+=======================
+http://zetcode.com/javascript/cheerio/
+
+    $('li').each(function (i, e) {
+        // this === el
+        hobbies[i] = $(this).text();
+    });
+
+
+the attributes of the paragraph <p> that is the immediate sibling of h1.
+
+    let fpEl = $('h1 + p');
+    let attrs = fpEl.attr();
+
+
+ all elements of the document that contain more than three children.
+
+    let allEls = $('*');
+
+    let filteredEls = allEls.filter(function (i, el) {
+        // this === el
+        return $(this).children().length > 3;
+    });
+
+    let items = filteredEls.get();     // ???????
+
+    items.forEach(e => {
+        console.log(e.name);
+    });
+
+=========================
+https://www.codota.com/code/javascript/functions/cheerio/Cheerio/each
+
+  const links = [];
+  $('.title a[href^="http"], a[href^="https"]').slice(1).each((index, element) => {
+   links.push($(element));
+  });
+
+
+  const elms=$('li .s-fc0');
+  console.log(elms.length);
+  elms.each(function(i,elm){
+    console.log($(this).text());
+  })
+
+$('script').each(function(index, el) {
+  var src = $(this).attr('src');
+  if (src) { resources.push(src); }
+ });
+
+
+ $(
+  $('ol')
+   .get()
+   .reverse()
+ ).each(function() {
+  $(this).replaceWith($('<ul>' + $(this).html() + '</ul>'));
+ });
+
+$('#bilingual ul li').find('p').each(function (i, elm) {
+      if ($(this).attr('class') !== 'example-via') {
+        sentenceSample += $(this).text().trim() + '\n'
+      }
+    })
+
+ $('#main tr').each( (i, element) => {
+  // skip header row
+  if(i==0){ return; }
+  const text = $(element).find('td').text().replace(/\s*/g,'');
+
+$('div.trans-container > ul').find('p.wordGroup').each(function (i, elm) {
+      result += $(this).text().replace(/\s+/g, ' ')
+    })
+
+$('link').each(function(index, el) {
+  var $el = $(this);
+  var src = $el.attr('href');
+  var rel = $el.attr('rel');
+
+  if (src) {
+   if (/icon/ig.test(rel) || rel === 'stylesheet') {
+    resources.push(src);
+   }
+  }
+ });
+
+$('img').each(function(index, el) {
+  var src = $(this).attr('src');
+  if (src) { resources.push(src); }
+ });
+
+$('div#phrsListTab > div.trans-container > ul').find('li').each(function (i, elm) {
+   result += $(this).text().replace(/\s+/g, ' ') + '\n'
+})
+
+======================================
+https://dev.to/ekafyi/tribute-to-swissted-part-ii-scraping-and-parsing-data-with-cheerio-1m2a
+
+$('.single-pen').each(function(index, element){
+
+  // initialize recreation object
+  recs[index] = {};
+
+  // get title
+  const title = $(element).find('.username span').text()
+  recs[index]['title'] = title + ' (Codepen)'
+
+  // get url
+  const url = $(element).find('.item-title a').attr('href')
+  recs[index]['url'] = url
+
+  // get id
+  const id = $(element).attr('data-slug-hash')
+  recs[index]['id'] = id
+
+  // add empty posterId field
+  recs[index]['posterId'] = ''
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

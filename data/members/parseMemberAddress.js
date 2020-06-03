@@ -1,6 +1,7 @@
 /**
- *  getMemberAddress.js - a module for the scraping program
+ *  parseMemberAddress.js - a module for the scraping program
  *  May 26
+ *  todo: handle "Rd.  Concord"
  */
 
 const getMemberAddress = function (addStr) {

@@ -12,3 +12,15 @@ Good jinja docs: https://jinja.palletsprojects.com/en/2.10.x/templates/#template
 For AWS Vue system see: https://medium.com/@dan_22184/serverless-content-management-system-for-websites-using-vue-js-ac7e10081d2f
 
 See new Dev environment: https://www.snowpack.dev/
+
+Browser screenshots in JS: https://github.com/nikersify/pico
+
+See VuePress code for markdown input!!!!
+
+rough-notation added to project
+
+cheerio: adv selectors (:eq): https://github.com/watson/cheerio-eq and https://www.npmjs.com/package/cheerio-advanced-selectors
+
+free cloud node execution: https://pipedream.com/?inactive=true
+
+jamstack providers: Netlify, Amplify, Begin and Vercel
