@@ -1,4 +1,4 @@
-### Newsprint: course websites
+### Newsprint: course websites (previously: newcanvas)
 
 An app intended to supplement HILR Canvas course websites.
 
